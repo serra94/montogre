@@ -1,0 +1,982 @@
+[
+    {
+        "product_name": "Smartphone X1",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Samsung",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 15,
+            "depth": 2
+        },
+        "weight": 0.3,
+        "price": 999.99,
+        "product_id": 5058023094114
+    },
+    {
+        "product_name": "TV LED 50 Polegadas",
+        "category": "Eletr\u00f4nicos",
+        "maker": "LG",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 45,
+            "height": 28,
+            "depth": 5
+        },
+        "weight": 12.5,
+        "price": 2499.5,
+        "product_id": 4177192419831
+    },
+    {
+        "product_name": "Notebook Pro",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Dell",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 14,
+            "height": 10,
+            "depth": 1
+        },
+        "weight": 2.0,
+        "price": 3299.0,
+        "product_id": 2509660687681
+    },
+    {
+        "product_name": "Caixa de L\u00e2mpadas LED",
+        "category": "Ilumina\u00e7\u00e3o",
+        "maker": "Philips",
+        "unit_measurement": "Caixa com 10 Unidades",
+        "dimensions": {
+            "width": 20,
+            "height": 5,
+            "depth": 5
+        },
+        "weight": 1.2,
+        "price": 79.9,
+        "product_id": 479553390946
+    },
+    {
+        "product_name": "Fone de Ouvido Bluetooth",
+        "category": "\u00c1udio",
+        "maker": "Sony",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 6,
+            "depth": 2
+        },
+        "weight": 0.1,
+        "price": 149.99,
+        "product_id": 372853694514
+    },
+    {
+        "product_name": "Caixa de Parafusos",
+        "category": "Ferramentas",
+        "maker": "Bosch",
+        "unit_measurement": "Caixa com 100 Unidades",
+        "dimensions": {
+            "width": 30,
+            "height": 10,
+            "depth": 10
+        },
+        "weight": 2.5,
+        "price": 39.95,
+        "product_id": 1161536142478
+    },
+    {
+        "product_name": "M\u00e1quina de Lavar Roupas",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Brastemp",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 36,
+            "depth": 24
+        },
+        "weight": 35.0,
+        "price": 1999.0,
+        "product_id": 5417715722462
+    },
+    {
+        "product_name": "C\u00e2mera DSLR",
+        "category": "Fotografia",
+        "maker": "Canon",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 6,
+            "height": 4,
+            "depth": 3
+        },
+        "weight": 0.8,
+        "price": 1699.75,
+        "product_id": 8700869280659
+    },
+    {
+        "product_name": "Panela de Press\u00e3o",
+        "category": "Utens\u00edlios de Cozinha",
+        "maker": "Tramontina",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 6,
+            "depth": 6
+        },
+        "weight": 2.2,
+        "price": 129.5,
+        "product_id": 1208137514039
+    },
+    {
+        "product_name": "Micro-ondas",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Electrolux",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 18,
+            "height": 12,
+            "depth": 14
+        },
+        "weight": 15.0,
+        "price": 349.0,
+        "product_id": 4241602412995
+    },
+    {
+        "product_name": "Impressora a Laser",
+        "category": "Eletr\u00f4nicos",
+        "maker": "HP",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 16,
+            "height": 10,
+            "depth": 8
+        },
+        "weight": 6.0,
+        "price": 499.0,
+        "product_id": 2395074780354
+    },
+    {
+        "product_name": "Kit de Ferramentas",
+        "category": "Ferramentas",
+        "maker": "Stanley",
+        "unit_measurement": "Caixa com 30 Unidades",
+        "dimensions": {
+            "width": 40,
+            "height": 15,
+            "depth": 10
+        },
+        "weight": 7.5,
+        "price": 189.99,
+        "product_id": 3471100961863
+    },
+    {
+        "product_name": "Ventilador de Teto",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Arno",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 52,
+            "height": 12,
+            "depth": 52
+        },
+        "weight": 4.5,
+        "price": 299.0,
+        "product_id": 9643936572243
+    },
+    {
+        "product_name": "Cafeteira El\u00e9trica",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Oster",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 1.0,
+        "price": 79.95,
+        "product_id": 1559841212537
+    },
+    {
+        "product_name": "Tablet Android",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Lenovo",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 10,
+            "depth": 0.5
+        },
+        "weight": 0.4,
+        "price": 449.0,
+        "product_id": 3560825485785
+    },
+    {
+        "product_name": "Caixa de Parafusos",
+        "category": "Ferramentas",
+        "maker": "Bosch",
+        "unit_measurement": "Caixa com 100 Unidades",
+        "dimensions": {
+            "width": 30,
+            "height": 10,
+            "depth": 10
+        },
+        "weight": 2.5,
+        "price": 39.95,
+        "product_id": 6166574460639
+    },
+    {
+        "product_name": "M\u00e1quina de Lavar Roupas",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Brastemp",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 36,
+            "depth": 24
+        },
+        "weight": 35.0,
+        "price": 1999.0,
+        "product_id": 6556935940927
+    },
+    {
+        "product_name": "C\u00e2mera DSLR",
+        "category": "Fotografia",
+        "maker": "Canon",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 6,
+            "height": 4,
+            "depth": 3
+        },
+        "weight": 0.8,
+        "price": 1699.75,
+        "product_id": 8619018930356
+    },
+    {
+        "product_name": "Panela de Press\u00e3o",
+        "category": "Utens\u00edlios de Cozinha",
+        "maker": "Tramontina",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 6,
+            "depth": 6
+        },
+        "weight": 2.2,
+        "price": 129.5,
+        "product_id": 5277913142619
+    },
+    {
+        "product_name": "Micro-ondas",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Electrolux",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 18,
+            "height": 12,
+            "depth": 14
+        },
+        "weight": 15.0,
+        "price": 349.0,
+        "product_id": 6578191526618
+    },
+    {
+        "product_name": "Impressora a Laser",
+        "category": "Eletr\u00f4nicos",
+        "maker": "HP",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 16,
+            "height": 10,
+            "depth": 8
+        },
+        "weight": 6.0,
+        "price": 499.0,
+        "product_id": 2053895725913
+    },
+    {
+        "product_name": "Kit de Ferramentas",
+        "category": "Ferramentas",
+        "maker": "Stanley",
+        "unit_measurement": "Caixa com 30 Unidades",
+        "dimensions": {
+            "width": 40,
+            "height": 15,
+            "depth": 10
+        },
+        "weight": 7.5,
+        "price": 189.99,
+        "product_id": 6135252059299
+    },
+    {
+        "product_name": "Ventilador de Teto",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Arno",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 52,
+            "height": 12,
+            "depth": 52
+        },
+        "weight": 4.5,
+        "price": 299.0,
+        "product_id": 391404445753
+    },
+    {
+        "product_name": "Cafeteira El\u00e9trica",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Oster",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 1.0,
+        "price": 79.95,
+        "product_id": 6513741384273
+    },
+    {
+        "product_name": "Tablet Android",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Lenovo",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 10,
+            "depth": 0.5
+        },
+        "weight": 0.4,
+        "price": 449.0,
+        "product_id": 3737531028001
+    },
+    {
+        "product_name": "Aspirador de P\u00f3",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Electrolux",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 12,
+            "height": 18,
+            "depth": 12
+        },
+        "weight": 4.0,
+        "price": 299.9,
+        "product_id": 499853361044
+    },
+    {
+        "product_name": "Caixa de Pilhas Alcalinas",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Duracell",
+        "unit_measurement": "Caixa com 24 Unidades",
+        "dimensions": {
+            "width": 5,
+            "height": 8,
+            "depth": 2
+        },
+        "weight": 0.3,
+        "price": 39.99,
+        "product_id": 6940282041286
+    },
+    {
+        "product_name": "Cadeira de Escrit\u00f3rio",
+        "category": "M\u00f3veis",
+        "maker": "Eames",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 36,
+            "depth": 20
+        },
+        "weight": 8.0,
+        "price": 499.0,
+        "product_id": 3704983788844
+    },
+    {
+        "product_name": "Roteador Wi-Fi",
+        "category": "Eletr\u00f4nicos",
+        "maker": "TP-Link",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 6,
+            "depth": 1
+        },
+        "weight": 0.2,
+        "price": 79.9,
+        "product_id": 5423427698594
+    },
+    {
+        "product_name": "M\u00e1quina de Caf\u00e9 Expresso",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "De'Longhi",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 2.5,
+        "price": 499.99,
+        "product_id": 9060919481112
+    },
+    {
+        "product_name": "Console de Jogos",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Sony",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 12,
+            "height": 3,
+            "depth": 9
+        },
+        "weight": 2.0,
+        "price": 1899.0,
+        "product_id": 5421666973922
+    },
+    {
+        "product_name": "Mochila Escolar",
+        "category": "Moda",
+        "maker": "JanSport",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 12,
+            "height": 18,
+            "depth": 6
+        },
+        "weight": 0.5,
+        "price": 99.95,
+        "product_id": 838142820756
+    },
+    {
+        "product_name": "Ferro de Passar Roupas",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Black & Decker",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 6,
+            "depth": 4
+        },
+        "weight": 1.2,
+        "price": 59.99,
+        "product_id": 694690111476
+    },
+    {
+        "product_name": "T\u00eanis Esportivo",
+        "category": "Esportes",
+        "maker": "Nike",
+        "unit_measurement": "Par",
+        "dimensions": {
+            "width": 8,
+            "height": 4,
+            "depth": 12
+        },
+        "weight": 0.8,
+        "price": 199.5,
+        "product_id": 5997023733986
+    },
+    {
+        "product_name": "Teclado Mec\u00e2nico Gamer",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Logitech",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 18,
+            "height": 6,
+            "depth": 2
+        },
+        "weight": 1.5,
+        "price": 149.0,
+        "product_id": 1631268207753
+    },
+    {
+        "product_name": "Fone de Ouvido com Cancelamento de Ru\u00eddo",
+        "category": "\u00c1udio",
+        "maker": "Bose",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 6,
+            "depth": 2
+        },
+        "weight": 0.3,
+        "price": 349.99,
+        "product_id": 5497196741916
+    },
+    {
+        "product_name": "Ventilador Port\u00e1til",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Mondial",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 12,
+            "depth": 6
+        },
+        "weight": 1.0,
+        "price": 69.95,
+        "product_id": 4663650664723
+    },
+    {
+        "product_name": "Fog\u00e3o a G\u00e1s",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Brastemp",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 36,
+            "depth": 24
+        },
+        "weight": 30.0,
+        "price": 799.0,
+        "product_id": 9141073650355
+    },
+    {
+        "product_name": "Liquidificador",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Walita",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 1.2,
+        "price": 49.9,
+        "product_id": 3813312563477
+    },
+    {
+        "product_name": "Mouse sem Fio",
+        "category": "Eletr\u00f4nicos",
+        "maker": "Microsoft",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 5,
+            "height": 3,
+            "depth": 2
+        },
+        "weight": 0.1,
+        "price": 29.99,
+        "product_id": 8786389512981
+    },
+    {
+        "product_name": "Cadeira de Praia",
+        "category": "Lazer",
+        "maker": "Nautika",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 32,
+            "depth": 24
+        },
+        "weight": 1.5,
+        "price": 49.95,
+        "product_id": 6135682532339
+    },
+    {
+        "product_name": "Batedeira",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Arno",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 2.0,
+        "price": 79.9,
+        "product_id": 1150001427257
+    },
+    {
+        "product_name": "Cadeira Gamer",
+        "category": "Eletr\u00f4nicos",
+        "maker": "DXRacer",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 22,
+            "height": 36,
+            "depth": 20
+        },
+        "weight": 10.0,
+        "price": 799.0,
+        "product_id": 3904028945214
+    },
+    {
+        "product_name": "Frigobar",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Consul",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 18,
+            "height": 32,
+            "depth": 18
+        },
+        "weight": 20.0,
+        "price": 499.5,
+        "product_id": 2397478978950
+    },
+    {
+        "product_name": "Torradeira",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Black & Decker",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 6,
+            "depth": 4
+        },
+        "weight": 1.0,
+        "price": 39.99,
+        "product_id": 2089118432078
+    },
+    {
+        "product_name": "M\u00e1quina de Costura",
+        "category": "Artesanato",
+        "maker": "Singer",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 16,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 5.0,
+        "price": 199.95,
+        "product_id": 6659529875456
+    },
+    {
+        "product_name": "C\u00e2mera de A\u00e7\u00e3o",
+        "category": "Eletr\u00f4nicos",
+        "maker": "GoPro",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 4,
+            "height": 4,
+            "depth": 3
+        },
+        "weight": 0.2,
+        "price": 299.0,
+        "product_id": 6522818849339
+    },
+    {
+        "product_name": "Aparelho de Som Bluetooth",
+        "category": "\u00c1udio",
+        "maker": "JBL",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 6,
+            "depth": 4
+        },
+        "weight": 0.5,
+        "price": 129.99,
+        "product_id": 758730331901
+    },
+    {
+        "product_name": "Cadeira de Balan\u00e7o",
+        "category": "M\u00f3veis",
+        "maker": "Havana",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 36,
+            "depth": 24
+        },
+        "weight": 10.0,
+        "price": 199.0,
+        "product_id": 7519077818495
+    },
+    {
+        "product_name": "Mala de Viagem",
+        "category": "Moda",
+        "maker": "Samsonite",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 20,
+            "height": 30,
+            "depth": 10
+        },
+        "weight": 2.5,
+        "price": 149.95,
+        "product_id": 5814635443699
+    },
+    {
+        "product_name": "Mesa de Jantar",
+        "category": "M\u00f3veis",
+        "maker": "Etna",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 48,
+            "height": 30,
+            "depth": 48
+        },
+        "weight": 20.0,
+        "price": 799.0,
+        "product_id": 1300059067344
+    },
+    {
+        "product_name": "Fritadeira El\u00e9trica",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Mondial",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 3.0,
+        "price": 199.5,
+        "product_id": 3714922301085
+    },
+    {
+        "product_name": "Rel\u00f3gio de Pulso",
+        "category": "Moda",
+        "maker": "Casio",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 4,
+            "height": 4,
+            "depth": 1
+        },
+        "weight": 0.1,
+        "price": 79.99,
+        "product_id": 3493760623983
+    },
+    {
+        "product_name": "Chuveiro El\u00e9trico",
+        "category": "Banheiro",
+        "maker": "Lorenzetti",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 18,
+            "depth": 10
+        },
+        "weight": 1.5,
+        "price": 89.9,
+        "product_id": 8463537649050
+    },
+    {
+        "product_name": "Escova de Dentes El\u00e9trica",
+        "category": "Sa\u00fade",
+        "maker": "Oral-B",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 2,
+            "height": 10,
+            "depth": 2
+        },
+        "weight": 0.2,
+        "price": 39.99,
+        "product_id": 4166474202261
+    },
+    {
+        "product_name": "Guarda-chuva",
+        "category": "Acess\u00f3rios",
+        "maker": "Totes",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 2,
+            "height": 12,
+            "depth": 2
+        },
+        "weight": 0.3,
+        "price": 19.95,
+        "product_id": 6611177187707
+    },
+    {
+        "product_name": "Cadeira de Praia",
+        "category": "Lazer",
+        "maker": "Nautika",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 32,
+            "depth": 24
+        },
+        "weight": 1.5,
+        "price": 49.95,
+        "product_id": 2932252029561
+    },
+    {
+        "product_name": "Batedeira",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Arno",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 2.0,
+        "price": 79.9,
+        "product_id": 4270991091715
+    },
+    {
+        "product_name": "Cadeira Gamer",
+        "category": "Eletr\u00f4nicos",
+        "maker": "DXRacer",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 22,
+            "height": 36,
+            "depth": 20
+        },
+        "weight": 10.0,
+        "price": 799.0,
+        "product_id": 5799237137440
+    },
+    {
+        "product_name": "Frigobar",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Consul",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 18,
+            "height": 32,
+            "depth": 18
+        },
+        "weight": 20.0,
+        "price": 499.5,
+        "product_id": 2897753683176
+    },
+    {
+        "product_name": "Torradeira",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Black & Decker",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 8,
+            "height": 6,
+            "depth": 4
+        },
+        "weight": 1.0,
+        "price": 39.99,
+        "product_id": 8878657165707
+    },
+    {
+        "product_name": "M\u00e1quina de Costura",
+        "category": "Artesanato",
+        "maker": "Singer",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 16,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 5.0,
+        "price": 199.95,
+        "product_id": 430626450331
+    },
+    {
+        "product_name": "C\u00e2mera de A\u00e7\u00e3o",
+        "category": "Eletr\u00f4nicos",
+        "maker": "GoPro",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 4,
+            "height": 4,
+            "depth": 3
+        },
+        "weight": 0.2,
+        "price": 299.0,
+        "product_id": 3278480182542
+    },
+    {
+        "product_name": "Aparelho de Som Bluetooth",
+        "category": "\u00c1udio",
+        "maker": "JBL",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 6,
+            "depth": 4
+        },
+        "weight": 0.5,
+        "price": 129.99,
+        "product_id": 9196339078849
+    },
+    {
+        "product_name": "Cadeira de Balan\u00e7o",
+        "category": "M\u00f3veis",
+        "maker": "Havana",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 24,
+            "height": 36,
+            "depth": 24
+        },
+        "weight": 10.0,
+        "price": 199.0,
+        "product_id": 9697056457318
+    },
+    {
+        "product_name": "Mala de Viagem",
+        "category": "Moda",
+        "maker": "Samsonite",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 20,
+            "height": 30,
+            "depth": 10
+        },
+        "weight": 2.5,
+        "price": 149.95,
+        "product_id": 3833680287363
+    },
+    {
+        "product_name": "Mesa de Jantar",
+        "category": "M\u00f3veis",
+        "maker": "Etna",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 48,
+            "height": 30,
+            "depth": 48
+        },
+        "weight": 20.0,
+        "price": 799.0,
+        "product_id": 2766165160547
+    },
+    {
+        "product_name": "Fritadeira El\u00e9trica",
+        "category": "Eletrodom\u00e9sticos",
+        "maker": "Mondial",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 12,
+            "depth": 8
+        },
+        "weight": 3.0,
+        "price": 199.5,
+        "product_id": 8185690425155
+    },
+    {
+        "product_name": "Rel\u00f3gio de Pulso",
+        "category": "Moda",
+        "maker": "Casio",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 4,
+            "height": 4,
+            "depth": 1
+        },
+        "weight": 0.1,
+        "price": 79.99,
+        "product_id": 1349178093073
+    },
+    {
+        "product_name": "Chuveiro El\u00e9trico",
+        "category": "Banheiro",
+        "maker": "Lorenzetti",
+        "unit_measurement": "Unidade",
+        "dimensions": {
+            "width": 10,
+            "height": 18,
+            "depth": 10
+        },
+        "weight": 1.5,
+        "price": 89.9,
+        "product_id": 8395173568725
+    }
+]

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "montogre"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Serra <thiagosaldanhaserra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mypy = "^1.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.12.0"
+pytest = "^7.4.2"
+pip-audit = "^2.6.1"
+pydocstyle = "^6.3.0"
+autoflake = "^1.7.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
