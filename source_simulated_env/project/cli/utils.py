@@ -113,4 +113,4 @@ def print_result_list(tasks_info: list) -> str:
         table = tabulate(tasks_info, headers, tablefmt='heavy_outline')
         return table
 
-    return colored(f'[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.', 'yellow')
+    return colored('[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.', 'yellow')

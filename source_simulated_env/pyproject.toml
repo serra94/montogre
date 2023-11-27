@@ -33,6 +33,7 @@ line_length = 79
 
 [tool.taskipy.tasks]
 lint = "blue --check --diff . && isort --check --diff . && autoflake --in-place --remove-all-unused-imports --remove-unused-variables -cd -r ."
+deep_lint = "flake8 project/"
 test = "pytest -s -x --cov=project -vv"
 
 [build-system]

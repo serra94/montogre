@@ -155,7 +155,7 @@ def list():
     else:
         click.echo(
             colored(
-                f'\n[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.\n', 'yellow'
+                '\n[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.\n', 'yellow'
             )
         )
 
@@ -169,7 +169,8 @@ def revoke(id_tasks, all):
     """Revokes one or more simulations by id(tasks)."""
     if not id_tasks and not all:
         message_without_tasks_revoke = colored(
-            f'[ ! ] THE "revoke" COMMAND NEED A <TASK_ID> OR --all/--a FOR ALL TASKS',
+            '[ ! ] THE "revoke" COMMAND NEED A <TASK_ID> OR --all/--a FOR ALL'
+            'TASKS',
             'yellow',
         )
         click.echo(f'\n{message_without_tasks_revoke}\n')

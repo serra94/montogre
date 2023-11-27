@@ -37,7 +37,7 @@ def simulate_data(
             if action == 'create':
                 id = simulator.create_document()
                 logger.info(
-                    f'ADD DOCUMENT      [{name_collection} - ObjectID: {id}]'
+                    f'ADD DOCUMENT    [{name_collection}-ObjectID: {id}]'
                 )
             else:
                 if editing_grade:
@@ -45,21 +45,19 @@ def simulate_data(
                         percent_to_update=editing_grade
                     )
                     logger.info(
-                        f'UPDATE* DOCUMENT   [{name_collection} - ObjectID: {id}]'
+                        f'UPDATE* DOCUMENT [{name_collection}-ObjectID: {id}]'
                     )
                 else:
                     id = simulator.update_document()
                     logger.info(
-                        f'UPDATE DOCUMENT   [{name_collection} - ObjectID: {id}]'
+                        f'UPDATE DOCUMENT [{name_collection}-ObjectID: {id}]'
                     )
         else:
             simulator = MongoDBActions(
                 db_address, db_name, name_collection, data_document
             )
             id = simulator.delete_document()
-            logger.info(
-                f'DELETE DOCUMENT   [{name_collection} - ObjectID: {id}]'
-            )
+            logger.info(f'DELETE DOCUMENT [{name_collection}-ObjectID: {id}]')
 
         loop_count += 1
 

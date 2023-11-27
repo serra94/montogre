@@ -1,11 +1,13 @@
 name: Check in Source Simulated Env
 on: [push, pull_request]
+
 jobs:
   lint_and_test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4  
+        uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -18,24 +20,21 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pwd
-          cd source_simulated_env
+          cd source_simulated_env/
           poetry install
-          pwd
+
+      - name: Run Deep Lint
+        run: |
+          cd source_simulated_env/
+          poetry run task deep_lint
 
       - name: Run Check Linters
         run: |
-          pwd
-          cd source_simulated_env
+          cd source_simulated_env/
           poetry run task lint
-          pwd
           
       - name: Run Tests
         run: |
-          pwd
-          cd source_simulates_env
+          cd source_simulated_env/
           poetry run task test
-          pwd
-
-
-
+            
