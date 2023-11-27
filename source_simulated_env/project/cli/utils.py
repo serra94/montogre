@@ -78,17 +78,18 @@ def print_running_actions(custom_actions: list) -> str:
                 action_key, (action[0].upper(), None)
             )
             formatted_actions.append(
-                colored(action_char, action_color) if action_color else action_char
+                colored(action_char, action_color)
+                if action_color
+                else action_char
             )
 
         return '-'.join(formatted_actions)
-    
+
     else:
-        for key,value in color_mapping.items():
+        for key, value in color_mapping.items():
             formatted_actions.append(colored(value[0], value[1]))
 
         return '-'.join(formatted_actions)
-
 
 
 def print_result_list(tasks_info: list) -> str:
@@ -112,4 +113,4 @@ def print_result_list(tasks_info: list) -> str:
         table = tabulate(tasks_info, headers, tablefmt='heavy_outline')
         return table
 
-    return colored(f'[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.', 'yellow')
+    return colored('[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.', 'yellow')

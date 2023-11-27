@@ -1,7 +1,7 @@
 import random
 
 import pymongo
-from bson.objectid import ObjectId
+from bson.objectid import ObjectId  # noqa
 
 
 class MongoDBActions:
@@ -14,8 +14,8 @@ class MongoDBActions:
         - ``database_name (str):`` The name of the database.
         - ``collection_name (str):`` The name of the collection where actions
         will be performed.
-        - ``document (dict):`` The initial data to be used for creating or editing
-        documents.
+        - ``document (dict):`` The initial data to be used for creating or
+        editing documents.
     """
 
     def __init__(
@@ -37,8 +37,8 @@ class MongoDBActions:
         its ObjectId. If no document is returned, the value None is returned.
 
         Returns:
-            - ``ObjectId`` or ``None``: The ObjectId of the retrieved document,
-            or None if no document is found.
+            - ``ObjectId`` or ``None``: The ObjectId of the retrieved
+            document or None if no document is found.
         """
         db = self.client[self.database_name]
         collection = db[self.collection_name]
@@ -50,10 +50,11 @@ class MongoDBActions:
 
     def create_document(self) -> ObjectId:
         """
-        Creates a new document in the provided collection using the specified data.
+        Creates a new document in the provided collection using the specified
+        data.
 
-        Inserts a new document into the collection using the data supplied during
-        object initialization.
+        Inserts a new document into the collection using the data supplied
+        during object initialization.
 
         Returns:
         - ``ObjectId``: The ObjectId of the created document.
@@ -72,18 +73,20 @@ class MongoDBActions:
         Update a random document in the provided collection with new data.
 
         Args:
-            - ``percent_to_update (int, optional):`` Percentage of keys to update
-            in the document. Default is 10.
+            - ``percent_to_update (int, optional):`` Percentage of keys to
+            update in the document. Default is 10.
 
-            - ``default_quantity (int, optional):`` Number of keys to update in the
-            document.
+            - ``default_quantity (int, optional):`` Number of keys to update
+            in the document.
 
-        This method attempts to update a random document in the collection with new data
-        while keeping the ObjectId unchanged. The update process involves modifying a
-        specified percentage of the keys in the document (controlled by the `percent_to_update`)
-        or a specific number of keys (controlled by `default_quantity`).
+        This method attempts to update a random document in the collection
+        with new data while keeping the ObjectId unchanged. The update process
+        involves modifying a specified percentage of the keys in the document
+        (controlled by the `percent_to_update`) or a specific number of keys
+        (controlled by `default_quantity`).
 
-        If a random document is not found in the collection, the function does not perform any updates.
+        If a random document is not found in the collection, the function does
+        not perform any updates.
 
         Returns:
         - ``ObjectId``: The ObjectId of the manipulated document.
@@ -130,12 +133,14 @@ class MongoDBActions:
         self.client.close()
         return random_id
 
-    def delete_document(self)-> ObjectId:
+    def delete_document(self) -> ObjectId:
         """
         Deletes a random document from the provided collection.
 
-        Attempts to delete a random document from the collection based on its ObjectId.
-        If no random document is found, the function does not perform any deletion.
+        Attempts to delete a random document from the collection based on its
+        ObjectId.
+        If no random document is found, the function does not perform any
+        deletion.
 
         Returns:
         - ``ObjectId``: The ObjectId of the manipulated document.

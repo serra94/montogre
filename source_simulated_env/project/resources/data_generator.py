@@ -16,7 +16,8 @@ def validate_quantity(quantity) -> int:
     """
     if not isinstance(quantity, int) or quantity < 1:
         message_error = colored(
-            f'✗ THE "quantity" PARAMETER MUST BE A POSITIVE INTEGER.[** "{quantity}"({type(quantity)}):INVALID **]',
+            '✗ THE "quantity" PARAMETER MUST BE A POSITIVE INTEGER.'
+            f'[** "{quantity}"({type(quantity)}):INVALID **]',
             'red',
         )
         raise ValueError(message_error)
@@ -41,9 +42,9 @@ def generator_driver_data(
         generate. Default is 1.
 
     Returns:
-        ``dict:`` A dictionary containing the generated driver data. The keys of
-        the dictionary correspond to the collection name, and the values are
-        lists of driver records in the specified language.
+        ``dict:`` A dictionary containing the generated driver data. The keys
+        of the dictionary correspond to the collection name, and the values
+        are lists of driver records in the specified language.
     """
     quantity = validate_quantity(quantity)
     fake = Faker(language)
@@ -79,9 +80,9 @@ def generator_vehicle_data(
         generate. Default is 1.
 
     Returns:
-        ``dict:`` A dictionary containing the generated driver data. The keys of
-        the dictionary correspond to the collection name, and the values are
-        lists of driver records in the specified language.
+        ``dict:`` A dictionary containing the generated driver data. The keys
+        of the dictionary correspond to the collection name, and the values
+        are lists of driver records in the specified language.
     """
     quantity = validate_quantity(quantity)
     fake = Faker(language)
@@ -119,9 +120,9 @@ def generator_client_data(
         generate. Default is 1.
 
     Returns:
-        ``dict:`` A dictionary containing the generated driver data. The keys of
-        the dictionary correspond to the collection name, and the values are
-        lists of driver records in the specified language.
+        ``dict:`` A dictionary containing the generated driver data. The keys
+        of the dictionary correspond to the collection name, and the values
+        are lists of driver records in the specified language.
     """
     quantity = validate_quantity(quantity)
     fake = Faker(language)
@@ -157,13 +158,14 @@ def generator_location_data(
         generate. Default is 1.
 
     Returns:
-        ``dict:`` A dictionary containing the generated location data. The keys of
-        the dictionary correspond to the collection name, and the values are
+        ``dict:`` A dictionary containing the generated location data. The keys
+        of the dictionary correspond to the collection name, and the values are
         lists of location records in the specified language.
 
-    This function generates location data based on a local CSV file that contains
-    municipality information. It randomly selects rows from the CSV file to create
-    location records with city IDs, names, and coordinates (latitude and longitude).
+    This function generates location data based on a local CSV file that
+    contains municipality information. It randomly selects rows from the CSV
+    file to create location records with city IDs, names, and coordinates
+    (latitude and longitude).
 
     The `language` parameter allows you to specify the language for generating
     fake data.
@@ -212,13 +214,14 @@ def generator_product_data(
         generate. Default is 1.
 
     Returns:
-        ``dict:`` A dictionary containing the generated product data. The keys of
-        the dictionary correspond to the collection name, and the values are
-        lists of product records in the specified language.
+        ``dict:`` A dictionary containing the generated product data. The keys
+        of the dictionary correspond to the collection name, and the values
+        are lists of product records in the specified language.
 
-    This function generates product data based on a local JSON file that contains
-    product information. It randomly selects products from the JSON file to create
-    product records with details such as name, price, and description.
+    This function generates product data based on a local JSON file that
+    contains product information. It randomly selects products from the JSON
+    file to create product records with details such as name, price, and
+    description.
 
     The `language` parameter allows you to specify the language for generating
     fake data
@@ -257,13 +260,13 @@ def generator_delivery_data(
         generate. Default is 1.
 
     Returns:
-        ``dict:`` A dictionary containing the generated delivery data. The keys of
-        the dictionary correspond to the collection name, and the values are
-        lists of delivery records in the specified language.
+        ``dict:`` A dictionary containing the generated delivery data. The keys
+        of the dictionary correspond to the collection name, and the values
+        are lists of delivery records in the specified language.
 
     This function generates delivery data by combining various other functions
-    to create a complete delivery record. It includes a driver, a vehicle, a client,
-    origin and destination locations, and a product for each delivery.
+    to create a complete delivery record. It includes a driver, a vehicle, a
+    client, origin and destination locations, and a product for each delivery.
 
     The `language` parameter allows you to specify the language for generating
     fake data.

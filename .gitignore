@@ -8,6 +8,8 @@ clean_pycache.sh
 
 .env
 
+.coverage
+
 # Directory that stores task status.
 **/var/
 

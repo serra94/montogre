@@ -1,0 +1,40 @@
+name: Check in Source Simulated Env
+on: [push, pull_request]
+
+jobs:
+  lint_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Poetry
+        run: |
+          pip install poetry==1.6.1
+          poetry --version
+
+      - name: Install Dependencies
+        run: |
+          cd source_simulated_env/
+          poetry install
+
+      - name: Run Deep Lint
+        run: |
+          cd source_simulated_env/
+          poetry run task deep_lint
+
+      - name: Run Check Linters
+        run: |
+          cd source_simulated_env/
+          poetry run task lint
+          
+      - name: Run Tests
+        run: |
+          cd source_simulated_env/
+          poetry run task test
+            
