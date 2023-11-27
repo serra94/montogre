@@ -1,11 +1,13 @@
 import pytest
 
-from project.resources.data_generator import (generator_client_data,
-                                              generator_delivery_data,
-                                              generator_driver_data,
-                                              generator_location_data,
-                                              generator_product_data,
-                                              generator_vehicle_data)
+from project.resources.data_generator import (
+    generator_client_data,
+    generator_delivery_data,
+    generator_driver_data,
+    generator_location_data,
+    generator_product_data,
+    generator_vehicle_data,
+)
 
 GENERATING_FUNCTIONS = [
     generator_driver_data,

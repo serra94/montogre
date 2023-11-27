@@ -24,6 +24,16 @@ pytest = "^7.4.2"
 pip-audit = "^2.6.1"
 pydocstyle = "^6.3.0"
 autoflake = "^1.7.8"
+taskipy = "^1.12.2"
+pytest-cov = "^4.1.0"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check --diff . && autoflake --in-place --remove-all-unused-imports --remove-unused-variables -cd -r ."
+test = "pytest -s -x --cov=project -vv"
 
 [build-system]
 requires = ["poetry-core"]

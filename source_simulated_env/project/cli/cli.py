@@ -1,11 +1,22 @@
 import click
-from tasks import (app, revoke_task, simulate_client_data,
-                   simulate_delivery_data, simulate_driver_data,
-                   simulate_location_data, simulate_product_data,
-                   simulate_vehicle_data)
+from tasks import (
+    app,
+    revoke_task,
+    simulate_client_data,
+    simulate_delivery_data,
+    simulate_driver_data,
+    simulate_location_data,
+    simulate_product_data,
+    simulate_vehicle_data,
+)
 from termcolor import colored
-from utils import (format_info_number_interactions, print_result_list,
-                   print_result_run, print_running_actions, task_elapsed_time)
+from utils import (
+    format_info_number_interactions,
+    print_result_list,
+    print_result_run,
+    print_running_actions,
+    task_elapsed_time,
+)
 
 MODELS_MAPPING = {
     'driver': simulate_driver_data,
@@ -140,9 +151,13 @@ def list():
                 )
 
         click.echo(f'\n{print_result_list(task_list)}\n')
-        
+
     else:
-        click.echo(colored(f'\n[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.\n', 'yellow'))
+        click.echo(
+            colored(
+                f'\n[ ! ] THERE ARE NO TASKS CURRENTLY RUNNING.\n', 'yellow'
+            )
+        )
 
 
 @cli.command(name='simulate-revoke')
